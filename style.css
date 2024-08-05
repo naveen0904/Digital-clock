@@ -1,0 +1,31 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5549201ae4b00d6e0a60ed84/1437621935527-HV60GZO8YT9CVO9WZS41/image-asset.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .clock {
+    position: absolute;
+    top: 40%;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time {
+    color: whitesmoke;
+    font-size: 2cm;
+    font-weight: bold;
+    position: absolute;
+    left: 15cm;
+  }
